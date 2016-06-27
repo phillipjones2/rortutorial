@@ -1,5 +1,10 @@
 == README
 
+This is a repo for doing the
+Ruby on Rails Tutorial
+Learn Web Development with Rails
+Michael Hartl
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
