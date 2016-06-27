@@ -2,6 +2,7 @@
   <div class="container">
     <h2 class="tag-title"><%= @tag.title %></h2>
 
+
     <div class="cards row">
 
       <% @destinations.each do |destination| %>
@@ -9,10 +10,17 @@
         <img src="<%= destination.image %>"/>
         <h2><%= destination.name %></h2>
         <p> <%= destination.description %> </p>
+        <%= link_to 'see', destination_path(destination) %>
+
       </div>
       <% end %>
 
     </div>
+    <div class="card row">
+      <div class="col-xs-12">
+        <%= link_to 'back', :back %>
 
+      </div>
+    </div>
   </div>
 </div>

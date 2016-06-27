@@ -1,0 +1,22 @@
+
+acronymn {
+  color: green;
+}
+.underline {text-decoration: underline;
+}
+.list_one {
+  list-style: disc;
+}
+.list_oneb {
+  list-style: circle;
+}
+.list_two {
+  list-style: upper-roman;
+}
+.list_twob {
+    list-style: lower-roman;
+}
+.right_side {
+  float: right;
+  margin-right: 5em;
+}
