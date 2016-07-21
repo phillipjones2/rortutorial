@@ -1,3 +1,11 @@
+const logger = require('./logger'),
+			Point = require('./Point');
+
+logger.info('Hello World!');
+
+var pt = new Point(4,6);
+pt.print();
+
 const http = require('http'),
 			port = 3000;
 
@@ -14,11 +22,3 @@ server.listen(port, (err) => {
 		}
 		console.log('server is listening on ' + port + 'new new');
 });
-
-
-// http.createServer((req, res) => {
-// 	res.writeHead({
-// 		'Content-Type':'text/plain'
-// 	});
-// 	res.end('hello world');
-// }).listen(3000);
